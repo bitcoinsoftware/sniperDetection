@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.rsilaboratorium1"
+    android:versionCode="1"
+    android:versionName="1.0"
+    >
+<uses-feature android:name="android.hardware.camera"
+                  android:required="false" />
+    <uses-sdk
+        android:minSdkVersion="8"
+        android:targetSdkVersion="21"
+        android:screenOrientation="landscape"
+    android:theme="@android:style/Theme.NoTitleBar" />
+
+    <uses-permission android:name="android.permission.ACCESS_FINE_LOCATION" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
+    <uses-permission android:name="android.permission.RECORD_AUDIO" />
+    <uses-permission android:name="android.permission.ACCESS_COARSE_LOCATION" />
+    <uses-permission android:name="android.permission.WAKE_LOCK" />
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+     
+ 
+    <application
+        android:allowBackup="true"
+        android:icon="@drawable/ic_launcher"
+        android:label="@string/app_name"
+        android:theme="@style/AppTheme" >
+        <activity
+            android:name="com.example.rsilaboratorium1.MainActivity"
+            android:label="@string/app_name" >
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name="com.example.rsilaboratorium1.KameraActivity"
+            android:label="@string/title_activity_kamera" >
+        </activity>
+        <activity
+            android:name="com.example.rsilaboratorium1.GPSActivity"
+            android:label="@string/title_activity_gps" >
+        </activity>
+        <activity
+            android:name="com.example.rsilaboratorium1.KompasActivity"
+            android:label="@string/title_activity_kompas" >
+        </activity>
+        <activity
+            android:name="com.example.rsilaboratorium1.Nagraj"
+            android:label="@string/title_activity_nagraj" >
+        </activity>
+         <activity
+            android:name="com.example.rsilaboratorium1.NoiseAlert"
+            android:label="@string/title_activity_nagraj" >
+        </activity>
+    </application>
+
+</manifest>

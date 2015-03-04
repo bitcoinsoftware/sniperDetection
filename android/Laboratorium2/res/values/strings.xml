@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <string name="app_name">RSI</string>
+    <string name="hello_world">Hello world!</string>
+    <string name="action_settings">Settings</string>
+    <string name="title_activity_kamera">KameraActivity</string>
+    <string name="kamera">kamera</string>
+    <string name="gps">gps</string>
+    <string name="kompas">kompas</string>
+    <string name="nagraj">nagraj</string>
+    <string name="title_activity_gps">GPSActivity</string>
+    <string name="title_activity_kompas">KompasActivity</string>
+    <string name="title_activity_nagraj">NagrajActivity</string>
+    <string name="monitoring">Monitoring</string>
+
+</resources>
